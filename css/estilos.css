@@ -39,6 +39,19 @@ table {
   border-spacing: 0;
 }
 
-img {
+.estudios__cv h2 {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.estudios__certificados--titulo {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.estudios__certificados--img {
+  width: 80%;
+  margin: 10px;
+}
+
+.proyectos img {
   width: 100%;
 }/*# sourceMappingURL=estilos.css.map */

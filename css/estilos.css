@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: "Oswald", sans-serif;
   vertical-align: baseline;
 }
 
@@ -14,6 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
+  background-image: url(../../img/fondo.jpg);
 }
 
 ol, ul {
@@ -39,16 +40,92 @@ table {
   border-spacing: 0;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 1000;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 70%, rgb(1, 9, 25));
+  border-radius: 2%;
+}
+
+.collapse {
+  /*desktop*/
+  justify-content: center;
+}
+
+.nav-item {
+  /*mobil*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-item .nav-link {
+  color: yellowgreen;
+  margin: 10px;
+}
+
+.nav-link.activado {
+  color: rgb(189, 251, 109);
+}
+
+.sobremi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 10px;
+}
+.sobremi__titulo {
+  margin: 50px 15px;
+  color: rgb(255, 255, 255);
+}
+.sobremi__subtitulo {
+  margin: 50px 15px;
+  color: rgb(255, 255, 255);
+}
+.sobremi__parrafo {
+  margin: 50px 15px;
+  color: aliceblue;
+}
+
 .estudios__cv h2 {
   font-size: 2rem;
-  margin-left: 10px;
+  color: yellowgreen;
+}
+.estudios__cv div {
+  border: 10px solid yellowgreen;
+}
+.estudios__certificados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .estudios__certificados--titulo {
   font-size: 2rem;
-  margin-left: 10px;
+  color: yellowgreen;
 }
 .estudios__certificados--img {
   width: 80%;
+  border: 10px solid yellowgreen;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills__img {
+  width: 100px;
   margin: 10px;
 }
 

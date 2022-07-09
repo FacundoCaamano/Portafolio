@@ -8,20 +8,23 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="desplegar"><img src="./img/flecha-hacia-abajo.png" alt=""></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link activado" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./page/proyectos.html">Proyectos</a>
@@ -34,22 +37,36 @@
     </div>
   </nav>
   <main>
-    <h1>hola mundo</h1>
-    <section>
-      <h2>que es lo que hago</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui, asperiores impedit consequatur odit dolore quisquam. Facere temporibus eveniet exercitationem?</p>
+    <section class="sobremi">
+      <h1 class="sobremi__titulo">Mi portafolio</h1>
+      <h2 class="sobremi__subtitulo">hola soy bla bla y me dedico a bla bla</h2>
+      <p class="sobremi__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui, asperiores impedit consequatur odit dolore quisquam. Facere temporibus eveniet exercitationem?</p>
     </section>
     <section class="estudios">
       <div class="estudios__cv">
         <h2>cv</h2>
+        <div></div>
       </div>
       <div class="estudios__certificados">
-        <h2 class="estudios__certificados--titulo">certificados</h2>
+        <h2 class="estudios__certificados--titulo">Web developer</h2>
         <img class="estudios__certificados--img"src="./img/certificado desarrollo web.png" alt="">
       </div>
+      <div class="estudios__certificados">
+        <h2 class="estudios__certificados--titulo">Java script</h2>
+        <img class="estudios__certificados--img"src="" alt="">
+      </div>
+      <div class="estudios__certificados">
+        <h2 class="estudios__certificados--titulo">backend</h2>
+        <img class="estudios__certificados--img"src="" alt="">
+      </div>
     </section>
-    <section>
-      <a href="">click aqui para ver mis proyectos</a>
+    <section class="skills">
+      <h2 class="skills__titulo">skills</h2>
+      <img class="skills__img" src="./img/Bootstrap_logo.svg.png" alt="">
+      <img class="skills__img" src="./img/Git-bash.png" alt="">
+      <img class="skills__img" src="./img/sass.png" alt="">
+      <img class="skills__img" src="./img/css-3.png" alt="">
+      <img class="skills__img" src="./img/html-5.png" alt="">
     </section>
   </main>
   <footer>

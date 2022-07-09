@@ -1,0 +1,22 @@
+.navbar{
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 70%, rgb(1, 9, 25));
+    border-radius: 2%;
+}
+
+.collapse{/*desktop*/
+    justify-content: center;
+}
+
+.nav-item{/*mobil*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .nav-link{
+        color: yellowgreen;
+        margin: 10px;
+    }
+}
+
+.nav-link.activado{
+    color: rgb(189, 251, 109);
+}

@@ -4,7 +4,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: 'Oswald', sans-serif;
     vertical-align: baseline; }
   
   /* HTML5 display-role reset for older browsers */
@@ -13,7 +13,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     display: block; }
   
   body {
-    line-height: 1; }
+    line-height: 1;
+    background-image: url(../../img/fondo.jpg); }
   
   ol, ul {
     list-style: none; }

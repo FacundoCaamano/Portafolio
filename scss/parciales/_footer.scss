@@ -1,0 +1,12 @@
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &__titulo{
+        color: yellowgreen;
+        margin-bottom: 30px;
+    }
+    &__img{
+        height: 60px;
+    }
+}

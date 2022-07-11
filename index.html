@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
@@ -40,24 +42,25 @@
     <section class="sobremi">
       <h1 class="sobremi__titulo">Mi portafolio</h1>
       <h2 class="sobremi__subtitulo">hola soy bla bla y me dedico a bla bla</h2>
-      <p class="sobremi__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui, asperiores impedit consequatur odit dolore quisquam. Facere temporibus eveniet exercitationem?</p>
+      <p class="sobremi__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui, asperiores impedit
+        consequatur odit dolore quisquam. Facere temporibus eveniet exercitationem?</p>
     </section>
     <section class="estudios">
-      <div class="estudios__perfil">
-        <a href=""><img src="./img/github (1).png" alt="">Linkedin</a>
-        <a href=""><img src="./img/cv.png" alt="">Descargar cv</a>
+      <div class="estudios__perfil" data-aos="fade-left">
+        <a href=""><img src="./img/github (1).png" alt="">Link a mi perfil de linkedin</a>
+        <a href=""><img src="./img/cv.png" alt="">Click aqui para descargar cv</a>
       </div>
-      <div class="estudios__certificados">
+      <div class="estudios__certificados" data-aos="flip-left">
         <h2 class="estudios__certificados--titulo">Web developer</h2>
-        <img class="estudios__certificados--img"src="./img/certificado desarrollo web.png" alt="">
+        <img class="estudios__certificados--img" src="./img/certificado desarrollo web.png" alt="">
       </div>
-      <div class="estudios__certificados">
+      <div class="estudios__certificados" data-aos="flip-right">
         <h2 class="estudios__certificados--titulo">Java script</h2>
-        <img class="estudios__certificados--img"src="" alt="">
+        <img class="estudios__certificados--img" src="" alt="">
       </div>
-      <div class="estudios__certificados">
+      <div class="estudios__certificados" data-aos="flip-left">
         <h2 class="estudios__certificados--titulo">backend</h2>
-        <img class="estudios__certificados--img"src="" alt="">
+        <img class="estudios__certificados--img" src="" alt="">
       </div>
     </section>
     <section class="skills">
@@ -68,7 +71,7 @@
         <img src="./img/sass.png" alt="">
         <img src="./img/css-3.png" alt="">
         <img src="./img/html-5.png" alt="">
-      </div>  
+      </div>
     </section>
   </main>
   <footer class="redes">
@@ -78,8 +81,11 @@
     <img class="redes__img" src="./img/instagram.png" alt="">
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

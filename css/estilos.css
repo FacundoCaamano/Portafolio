@@ -109,10 +109,6 @@ p {
   color: aliceblue;
 }
 
-main {
-  border: solid red 1px;
-}
-
 .estudios__perfil {
   display: flex;
   flex-direction: column;
@@ -123,7 +119,6 @@ main {
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  box-sizing: border-box;
 }
 .estudios__perfil a {
   color: yellowgreen;
@@ -132,6 +127,7 @@ main {
 }
 .estudios__perfil img {
   width: 100px;
+  margin: 10px;
 }
 .estudios__certificados {
   display: flex;

@@ -1,3 +1,9 @@
+.titulo{
+    color: yellowgreen;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
 .proyectos{
     display: flex;
     flex-direction: column;
@@ -5,7 +11,7 @@
     &__autos{
         border: 5px solid yellowgreen;
         border-bottom: none;
-        margin: 10px 10px 0px 10px;
+        margin: 50px 10px 0px 10px;
         background-image: url(../../img/proyecto\ autos.png);
         background-size: contain;
         height: 300px;
@@ -25,14 +31,15 @@
     }
     &__skills{
         margin: 0 10px;
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        background-color: white;
         backdrop-filter: blur(70px);
         -webkit-backdrop-filter: blur(10px);
         border:5px solid yellowgreen;
         border-top: none;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
         img{
-            height: 50px;
+            height: 60px;
+            padding: 6px;
         }
     }
 }

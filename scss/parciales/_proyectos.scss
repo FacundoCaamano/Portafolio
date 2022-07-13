@@ -17,7 +17,7 @@
             text-decoration: none;
             h2{
                 padding: 10px;
-                color: yellowgreen;
+                color: rgb(200, 249, 103);
                 background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
                 backdrop-filter: blur(20px);
                 -webkit-backdrop-filter: blur(10px);
@@ -40,5 +40,12 @@
                 }
             }
         }
+    }
+}
+
+a:hover{
+    h2{
+        opacity: 1;
+        transition-duration: 0.5s;
     }
 }

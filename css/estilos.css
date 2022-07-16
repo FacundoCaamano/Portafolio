@@ -172,16 +172,6 @@ p {
   width: 200px;
 }
 
-.skills img {
-  transition: 0.5s linear;
-}
-
-.skills img:hover {
-  transform: none;
-  margin: 10px 50px;
-  z-index: 1;
-}
-
 .proyectos {
   display: flex;
   flex-direction: column;
@@ -232,6 +222,37 @@ a:hover h2 {
   transition-duration: 0.5s;
 }
 
+.contacto {
+  color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.formulario__lista {
+  margin: 15px;
+}
+.formulario__lista--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: yellowgreen;
+}
+.formulario__lista--item input {
+  width: 100%;
+  background-color: rgb(30, 50, 81);
+  border: none;
+  height: 40px;
+  margin: 5px 0;
+  color: yellowgreen;
+}
+.formulario__lista--item textarea {
+  width: 100%;
+  background-color: rgb(30, 50, 81);
+  border: none;
+  height: 70px;
+}
+
 @media screen and (min-width: 1024px) {
   .skills {
     flex-direction: row;
@@ -243,6 +264,7 @@ a:hover h2 {
   .skills__img {
     flex-direction: column;
     align-items: center;
+    height: 500px;
   }
   .skills__img--1 {
     flex-direction: row;
@@ -261,6 +283,14 @@ a:hover h2 {
     width: 200px;
     margin: -2rem 0 0 -3rem;
     transform: rotate3d(1, 1, 1, 15deg);
+  }
+  .skills img {
+    transition: 0.5s linear;
+  }
+  .skills img:hover {
+    transform: none;
+    margin: 10px 50px;
+    z-index: 1;
   }
   .proyectos {
     display: flex;

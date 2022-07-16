@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Facundo Caamaño</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilos.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Facundo Caamaño</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
 
 <body>
   <nav class="navbar navbar-expand-lg">
@@ -39,34 +39,32 @@
     </div>
   </nav>
   <main>
-    <h1>Contactame</h1>
+    <h1 class="contacto">Contactame</h1>
     <section>
       <form class="formulario" action="" method="get" enctype="text/plain">
-        <div>
-            <div>
-                <label for="userName"><b>Nombre:</b></label>
-                <input type="text" name="userName" id="userName" placeholder="Escriba su nombre" required>
-            </div>
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" placeholder="Escriba su e-mail" required>
-            </div>    
-            <div>
-                <label for="tema">Tema:</label>
-                <input type="text" name="tema" id="tema" placeholder="Tema" required>
-            </div>
-        </div>
-        <div>
-            <div>
-                <label for="comentario">comentario</label>
-                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar formulario">
-            </div>
-        </div>
-    </form>
+        <ul class="formulario__lista">
+          <li class="formulario__lista--item">
+            <label for="userName">Nombre:</label>
+            <input type="text" name="userName" id="userName" placeholder="Escriba su nombre" required>
+          </li>
+          <li class="formulario__lista--item">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Escriba su e-mail" required>
+          </li>
+          <li class="formulario__lista--item">
+            <label for="tema">Tema:</label>
+            <input type="text" name="tema" id="tema" placeholder="Tema" required>
+          </li>
+          <li class="formulario__lista--item">
+            <label for="comentario">comentario</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+          </li>
+          <li class="formulario__lista--item">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar formulario">
+          </li>
+        </ul>
+      </form>
     </section>
   </main>
   <footer>

@@ -2,11 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 30px 0;
+    img:hover{
+        height: 100px;
+    }
     &__titulo{
         color: yellowgreen;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     &__img{
-        height: 60px;
+        height: 80px;
     }
 }

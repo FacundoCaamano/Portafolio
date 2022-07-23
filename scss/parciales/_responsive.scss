@@ -97,4 +97,26 @@
             }
         }
     }
+    .formulario{
+        display: flex;
+        justify-content: center;
+        margin:150px 0;
+        &__lista{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 70%;
+            &--item{
+                width: 40%;
+                margin: 5px;
+                input{
+                    height: 70px;
+                }
+                textarea{
+                    height: 70px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
 }
